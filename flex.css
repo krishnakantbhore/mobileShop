@@ -1,0 +1,221 @@
+body{
+    margin: 0%;
+}
+#navbar{
+    height: 90px;
+    width: 100vw;
+    background-color: blue;
+    position: fixed;
+    margin-top: -10px;
+}
+#navbarhome{
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 120px;
+    color: antiquewhite;
+}
+#navbarcontactus{
+    font-size: 30px;
+    margin-top: -63px;
+    margin-left: 250px;
+    color: bisque;
+
+}
+#navbarabout{
+    font-size: 30px;
+    margin-top: -65px;
+    margin-left: 450px;
+    color: bisque;
+}
+#search{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 1100px;
+    border-radius: 10%;
+}
+ 
+ 
+#contener{
+    
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 40px; */
+}
+#mainsection{
+    width: 60vw;
+    /* height: 70vh; */
+    background-color:bisque;
+    /* top: 100px; */
+    /* position: absolute; */
+    
+}
+#asidesection{
+    width: 35vw;
+    /* height: 30vh; */
+    background-color:blanchedalmond;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+#cards div{
+    height: 490px;
+    width: 300px;
+    background-color: rgb(0, 255, 60);
+    border: 2px solid black;
+    margin: 100px 30px 30px 30px;
+}
+ #cards #card1{
+    background-color: aliceblue;
+}
+#cards #card2{
+    background-color: aliceblue;
+}
+#cards #card3{
+    background-color: aliceblue;
+}
+#cards #card4{
+    background-color: aliceblue;
+}
+#cards #card5{
+    background-color: aliceblue;
+}
+#cards #card6{
+    background-color: aliceblue;
+}
+#productname{
+    font-size: 25px;
+    margin-top: -5px;
+    text-align: center;
+}
+#details{
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+}
+#prise{
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+}
+#specialoffer{
+    font-size: 20px;
+    margin-top: -10px;
+    text-align: center;
+    color:crimson;
+}
+#btn{
+    margin-left: 35%;
+    padding: 10px;
+    margin-top:-9px;
+    font-size: 15px;
+    background-color: black;
+    color: aliceblue;
+}
+#contactussection{
+    width: 100vw;
+    height: 700px;
+    background-color: rgb(230, 227, 222);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contactussection #Queries p{
+font-size: 30px;
+
+}
+ 
+#contactussection #contactus{
+    height: 400px;
+    width: 350px;
+    background-color: rgb(244, 246, 246);
+    border: 2px solid black;
+    border-radius: 20px ;
+    padding: 10px;
+    
+}
+#contactussection #contactus #name{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius:20px ;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+#contactussection #contactus #name p{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+#contactussection #contactus #nametype{
+    width: 95%;
+    height: 45px;
+    margin: 10px;
+    margin-left: 2px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+#contactussection #contactus #emailtype{
+    width: 95%;
+    height: 45px;
+    margin: 10px;
+    margin-left: 2px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}#contactussection #contactus #mobilenotype{
+    width: 95%;
+    height: 45px;
+    margin: 10px;
+    margin-left: 2px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+#contactussection #contactus #requestcallbacktype{
+    width: 95%;
+    height: 45px;
+    margin: 10px;
+    margin-left: 2px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#footer{
+    height: 300px;
+    width: 100vw;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+#footer #about p{
+    color: antiquewhite;
+     margin: 5px;
+     font-size: 20px;
+}
+#footer #product p{
+    color: antiquewhite;
+     margin: 5px;
+     font-size: 20px;
+}
+#footer #gethelps p{
+    color: antiquewhite;
+     margin: 5px;
+     font-size: 20px;
+}
+#asidesection img{
+    margin-top: 150px;
+}
